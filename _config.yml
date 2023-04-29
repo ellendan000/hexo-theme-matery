@@ -22,30 +22,6 @@ menu:
   # Friends:
   #  url: /friends
   #  icon: fas fa-address-book
-  # Friends:
-  #  url: /friends
-  #  icon: fas fa-address-book
-  # Friends:
-  #  url: /friends
-  #  icon: fas fa-address-book
-  # Friends:
-  #  url: /friends
-  #  icon: fas fa-address-book
-  Friends:
-    url: /friends
-    icon: fas fa-address-book
-  # Friends:
-  #  url: /friends
-  #  icon: fas fa-address-book
-  # Friends:
-  #  url: /friends
-  #  icon: fas fa-address-book
-  # Friends:
-  #  url: /friends
-  #  icon: fas fa-address-book
-  # Friends:
-  #  url: /friends
-  #  icon: fas fa-address-book
   # 二级菜单写法如下
   #Medias:
   #  icon: fas fa-list
@@ -97,15 +73,7 @@ cover:
 dream:
   enable: true
   showTitle: true
-  title: 上善若水
-  title: 上善若水
-  title: 上善若水
-  title: 上善若水
   title: 我的梦想
-  title: 上善若水
-  title: 上善若水
-  title: 上善若水
-  title: 上善若水
   text: 不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
 
 # Whether to display the musics.
@@ -194,32 +162,6 @@ indexbtn:
 socialLink:
   github:  https://github.com/ellendan000
   email: ellendan000@gmail.com
-  github:  https://github.com/ellendan000
-  email: ellendan000@gmail.com
-  github:  https://github.com/ellendan000
-  email: ellendan000@gmail.com
-  github:  https://github.com/ellendan000
-  email: ellendan000@gmail.com
-  github:  https://github.com/blinkfox
-  email: 1181062873@qq.com
-  github:  https://github.com/ellendan000
-  email: ellendan000@gmail.com
-  github:  https://github.com/ellendan000
-  email: ellendan000@gmail.com
-  github:  https://github.com/ellendan000
-  email: ellendan000@gmail.com
-  github:  https://github.com/ellendan000
-  email: ellendan000@gmail.com
-  facebook: # https://www.facebook.com/xxx
-  twitter: # https://twitter.com/xxx
-  qq: # 1181062873
-  qq: # 1181062873
-  qq: # 1181062873
-  qq: # 1181062873
-  qq: 1181062873
-  qq: # 1181062873
-  qq: # 1181062873
-  qq: # 1181062873
   qq: # 1181062873
   weibo: # https://weibo.com/xxx
   zhihu: # https://www.zhihu.com/xxx
@@ -254,14 +196,6 @@ reward:
 # 是否激活复制文章时追加博客和作者的版权信息.
 copyright:
   enable: true
-  enable: true
-  enable: true
-  enable: true
-  enable: false
-  enable: true
-  enable: true
-  enable: true
-  enable: true
   minCharNumber: 120 # 至少复制多少个字符就追加版权信息.
   description: 本文章著作权归作者所有，任何形式的转载都请注明出处。
 
@@ -290,14 +224,6 @@ postInfo:
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活点击页面的'爱心'效果，默认激活.
 clicklove:
-  enable: false
-  enable: false
-  enable: false
-  enable: false
-  enable: true
-  enable: false
-  enable: false
-  enable: false
   enable: false
 
 # | 文件名             | 说明                   |
