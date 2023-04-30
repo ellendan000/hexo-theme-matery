@@ -16,9 +16,12 @@ menu:
   About:
     url: /about
     icon: fas fa-user-circle
-  Contact:
-    url: /contact
-    icon: fas fa-comments
+  Graph:
+    url: /graph
+    icon: fa fa-graduation-cap
+#  Contact:
+#    url: /contact
+#    icon: fas fa-comments
   # Friends:
   #  url: /friends
   #  icon: fas fa-address-book
@@ -479,6 +482,7 @@ libs:
     mermaid: /libs/mermaid/mermaid.min.css
     fancybox: /libs/fancybox/jquery.fancybox.css
     justifiedGallery: /libs/justifiedGallery/justifiedGallery.min.css
+    kmsjsmap: /libs/kmsjsmap/kmsjsmap.css
   js:
     matery: /js/matery.js
     sc2tc: /js/tw_cn.js
@@ -520,6 +524,7 @@ libs:
     codelang: /libs/codeBlock/codeLang.js
     codecopy: /libs/codeBlock/codeCopy.js
     codeshrink: /libs/codeBlock/codeShrink.js
+    kmsjsmap: /libs/kmsjsmap/kmsjsmap.js
 
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.

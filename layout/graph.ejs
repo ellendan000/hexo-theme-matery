@@ -1,0 +1,77 @@
+<main class="content">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=8">
+    <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.css.kmsjsmap) ">
+    <style>
+        #jsmind_container {
+            height: 900px;
+            background: #ffffff00;
+        }
+    </style>
+    <!-- <script src="https://images.hnbian.cn/jquery.min.mind.js"></script> -->
+    <script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.kmsjsmap) " type="text/javascript"></script>
+    <div id="jsmind_container"></div>
+    <!--引入图JSON数据-->
+    <% var graphs = site.data.graphs; %>
+
+    <p id="graphsValue" hidden>[
+        <% for (var i = 0, len = graphs.length; i < len; i++) { %>
+            <% var graph = graphs[i]; %>
+            <% if (i == graphs.length -1) { %>
+            {
+            "id": "<%- graph.id %>",
+            "parentid": "<%- graph.parentid %>",
+            "direction":"<%- graph.direction %>",
+            "topic": "<%- graph.topic %>",
+            "expanded":"<%- graph.expanded %>",
+            "isLink": <%- graph.isLink %> ,
+            "link":"<%- graph.link %>"
+            }
+            <% } else  if (i == 0){%>
+                {
+                "id": "<%- graph.id %>",
+                "isroot": true,
+                "parentid": "<%- graph.parentid %>",
+                "direction":"<%- graph.direction %>",
+                "topic": "<%- graph.topic %>",
+                "expanded":"<%- graph.expanded %>",
+                "isLink": <%- graph.isLink %> ,
+                "link":"<%- graph.link %>"
+                },
+            <% }else { %>
+                {
+                "id": "<%- graph.id %>",
+                "parentid": "<%- graph.parentid %>",
+                "direction":"<%- graph.direction %>",
+                "topic": "<%- graph.topic %>",
+                "expanded":"<%- graph.expanded %>",
+                "isLink": <%- graph.isLink %> ,
+                "link":"<%- graph.link %>"
+                },
+            <% } %>
+        <% } %>
+        ]
+    </p>
+
+    <script type="text/javascript">
+        var jsondata = jQuery.parseJSON( $("#graphsValue").text());
+
+        kmsjsmap.init({
+            container: "jsmind_container",
+            data: jsondata,
+            editable: false,
+            onRelation: function (item) {
+                //console.log('当前选择中的是', item)
+
+                kmsjsmap.setLinkStatus({
+                    id: item.id,
+                    isLink: item.data.isLink === true ? true : false
+                })
+                if (true == item.data.isLink) {
+                    window.open(item.data.link);
+                }
+            }
+        });
+    </script>
+
+</main>
