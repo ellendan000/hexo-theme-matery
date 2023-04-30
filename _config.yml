@@ -497,6 +497,7 @@ libs:
     sakura: /libs/others/sakura.js
     star: /libs/others/star.js
     snow: /libs/others/snow.js
+    snowflake: /libs/others/snowflake.js
     tcaptcha: /libs/others/TencentCaptcha.js
     busuanzi: /libs/others/busuanzi.pure.mini.js
     aplayer: /libs/aplayer/APlayer.min.js
@@ -607,7 +608,7 @@ ribbon:
 
 # 背景动态彩带.
 ribbon_dynamic:
-  enable: false
+  enable: true
 
 # sharejs文章分享模块.
 # 支持顺序，可选项目为twitter, facebook, google, qq, qzone, wechat, weibo, douban, linkedin.
