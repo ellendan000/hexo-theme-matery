@@ -8,7 +8,7 @@
             background: #ffffff00;
         }
     </style>
-    <script src="/libs/jquery/jquery.min.js"></script>
+    <script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.jquery)%>"></script>
     <script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.kmsjsmap)%>" type="text/javascript"></script>
     <div id="jsmind_container"></div>
     <!--引入图JSON数据-->
