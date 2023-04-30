@@ -1,7 +1,7 @@
 <main class="content">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=8">
-    <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.css.kmsjsmap) ">
+    <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.css.kmsjsmap)%>">
     <style>
         #jsmind_container {
             height: 900px;
@@ -9,7 +9,7 @@
         }
     </style>
     <!-- <script src="https://images.hnbian.cn/jquery.min.mind.js"></script> -->
-    <script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.kmsjsmap) " type="text/javascript"></script>
+    <script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.kmsjsmap)%>" type="text/javascript"></script>
     <div id="jsmind_container"></div>
     <!--引入图JSON数据-->
     <% var graphs = site.data.graphs; %>
