@@ -497,7 +497,6 @@ libs:
     sakura: /libs/others/sakura.js
     star: /libs/others/star.js
     snow: /libs/others/snow.js
-    snowflake: /libs/others/snowflake.js
     tcaptcha: /libs/others/TencentCaptcha.js
     busuanzi: /libs/others/busuanzi.pure.mini.js
     aplayer: /libs/aplayer/APlayer.min.js
