@@ -13,12 +13,12 @@ menu:
   Archives:
     url: /archives
     icon: fas fa-archive
-  About:
-    url: /about
-    icon: fas fa-user-circle
   Graph:
     url: /graph
     icon: fa fa-graduation-cap
+  About:
+    url: /about
+    icon: fas fa-user-circle
 #  Contact:
 #    url: /contact
 #    icon: fas fa-comments
@@ -257,7 +257,7 @@ snowdown:
 profile:
   avatar: /medias/avatar.jpg
   career: Software Architect
-  introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
+  introduction: 吾生也有涯，而知也无涯。以有涯随无涯，殆已。
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
