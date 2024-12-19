@@ -5,11 +5,10 @@ menu:
     url: /
     icon: fas fa-home
   Books:
-    url: /books
     icon: fas fa-book
     children:
-      - name: ExtremeProgramming
-        url: /book-xp
+      - name: XP2.0
+        url: /book-xp/
         icon: fas fa-keyboard
   Tags:
     url: /tags
