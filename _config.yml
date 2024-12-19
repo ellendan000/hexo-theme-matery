@@ -4,6 +4,13 @@ menu:
   Index:
     url: /
     icon: fas fa-home
+  Books:
+    url: /books
+    icon: fas fa-book
+    children:
+      - name: ExtremeProgramming
+        url: /xp
+        icon: fas fa-keyboard
   Tags:
     url: /tags
     icon: fas fa-tags
