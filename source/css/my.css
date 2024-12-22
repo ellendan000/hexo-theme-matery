@@ -69,3 +69,45 @@
 .tag-common.tabs {
     height: auto;
 }
+
+/* group image */
+.group-image-container {
+    margin: 1.5rem auto;
+}
+.group-image-container img {
+    margin: 0 auto;
+    border-radius: 3px;
+    background-color: transparent;
+    box-shadow: 0 3px 9px 0 rgba(0,0,0,0.15), 0 3px 9px 0 rgba(0,0,0,0.15);
+}
+.group-image-row {
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+.group-image-wrap {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.group-image-wrap:not(:last-child) {
+    margin-right: 0.25rem;
+}
+
+.group-picture {
+    margin-bottom: 20px;
+}
+.group-picture .group-picture-row {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 3px;
+}
+.group-picture .group-picture-column {
+    flex: 1;
+}
+.group-picture .group-picture-column img {
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
+    width: 100%;
+}

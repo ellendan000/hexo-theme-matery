@@ -11,3 +11,8 @@ const postNote = require('./note')(hexo);
 
 hexo.extend.tag.register('note', postNote, true);
 hexo.extend.tag.register('subnote', postNote, true);
+
+const groupPicture = require('./group-pictures')(hexo);
+
+hexo.extend.tag.register('grouppicture', groupPicture, true);
+hexo.extend.tag.register('gp', groupPicture, true);
