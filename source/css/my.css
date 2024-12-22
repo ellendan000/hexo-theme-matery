@@ -64,3 +64,8 @@
     content: "\f056";
     color: #d9534f;
 }
+
+/* fix tabs style */
+.tag-common.tabs {
+    height: auto;
+}

@@ -1247,25 +1247,25 @@ article .article-tags .chip {
     cursor: pointer;
 }
 
-#articleContent ol,
-#articleContent ul {
+#articleContent ol:not([class]),
+#articleContent ul:not([class]) {
     display: block;
     padding-left: 2em !important;
     word-spacing: 0.05rem;
 }
 
-#articleContent ul li,
-#articleContent ol li {
+#articleContent ul li:not([class]),
+#articleContent ol li:not([class]) {
     display: list-item;
     line-height: 1.8rem;
     font-size: 1rem;
 }
 
-#articleContent ul li {
+#articleContent ul li:not([class]) {
     list-style-type: disc;
 }
 
-#articleContent ul ul li {
+#articleContent ul ul li:not([class]) {
     list-style-type: circle;
 }
 
