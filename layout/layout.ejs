@@ -27,7 +27,7 @@
         <script src='<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.mermaid) %>'></script>
         <script>
           if (window.mermaid) {
-            mermaid.initialize({theme: 'forest'});
+            mermaid.initialize({theme: 'default', look: 'handDrawn', securityLevel: 'loose'});
           }
         </script>
     <% } %>
