@@ -27,7 +27,8 @@
         <script src='<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.mermaid) %>'></script>
         <script>
           if (window.mermaid) {
-            mermaid.initialize({theme: 'default', look: 'handDrawn', securityLevel: 'loose'});
+            mermaid.initialize({{ JSON.stringify(theme.mermaid.options) }});
+            // mermaid.initialize({theme: 'default', look: 'handDrawn', securityLevel: 'loose'});
           }
         </script>
     <% } %>
