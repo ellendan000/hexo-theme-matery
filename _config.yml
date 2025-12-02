@@ -8,7 +8,7 @@ menu:
     icon: fas fa-book
     children:
       - name: 进股市学理财
-        url: /book-xp/
+        url: /book-chanlun/
         icon: fas fa-keyboard
   Tags:
     url: /tags
